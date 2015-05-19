@@ -23,6 +23,10 @@
 
 ;;; Commentary:
 
+;;; Display a "tip of the day" at a given time of day.
+
+;;; Inspired by http://emacswiki.org/emacs/TipOfTheDay
+
 ;;; Code:
 
 (require 'cl-lib)
