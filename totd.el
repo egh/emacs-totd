@@ -4,7 +4,7 @@
 
 ;; Author: Erik Hetzner <egh@e6h.org>
 ;; Keywords: help
-;; Package-Requires: ((s "1.9.0"))
+;; Package-Requires: ((s "1.9.0") (cl "0.5"))
 
 ;; This file is not part of GNU Emacs.
 
