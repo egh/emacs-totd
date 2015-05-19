@@ -44,6 +44,7 @@
   :group 'totd
   :type 'string)
 
+;;;###autoload
 (defun totd ()
   "Display a tip of the day."
   (interactive)
@@ -87,11 +88,13 @@
   nil
   "Holds the timer for a tip of the day.")
 
+;;;###autoload
 (defun totd-start ()
   "Start displaying tip of the day.  Will display time at `totd-time'."
   (interactive)
   (setq totd-timer (run-at-time totd-time 86400 #'totd)))
 
+;;;###autoload
 (defun totd-stop ()
   "Stop displaying tip of the day."
   (interactive)
